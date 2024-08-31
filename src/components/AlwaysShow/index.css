@@ -1,0 +1,94 @@
+.alwaysshowsidebar{
+    width: 120%;
+    border: rgb(116, 8, 80) solid 0px;
+    background-color: white;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: gray;
+}
+
+.darkthemeshowsidebar{
+    background-color: black;
+    color: white;
+}
+
+.bottom{
+    border: 1px greenyellow solid;
+}
+
+.options-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1px;
+    width: 100%;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.options-container:hover{
+    background-color: rgb(228, 222, 222);
+    cursor:grab;
+    border-radius: 15px;
+    color: black;
+}
+
+.options{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0px;
+}
+
+.darkthemeoptions_container{
+    color: white;
+    background-color: black;
+}
+
+button{
+    width: 110%;
+    background-color: transparent;
+    font-size: 15px;
+    border: none;
+    text-align: start;
+    padding: 3px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 15px;
+}
+
+.icon{
+    width: 25px;
+    height:  25px;
+    margin-right: 5px;
+    margin-left: 6px;
+}
+
+.link_buttons {
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 2px;
+}
+
+
+@media screen and (max-width:768px) {
+    .alwaysshowsidebar{
+        display: none;
+    }
+}
+
+hr{
+    border-color: rgb(199, 196, 196); 
+    border-width: 1%;
+    width: 100%;
+}
+
+h4{
+    margin: 0px;
+    font-weight: 500;
+    color: rgb(78, 77, 77);
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
